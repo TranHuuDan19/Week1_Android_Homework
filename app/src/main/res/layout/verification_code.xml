@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="33dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/back"
+        app:iconTint="#0E0E0E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="255dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/sofia_p"
+        android:text="Verification Code"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/noboder_field"
+        android:shadowColor="#1B1A1A"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:singleLine="true"
+        android:text=" 5"
+        android:textColor="#FE734E"
+        android:textSize="25sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/materialButton"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="260dp"
+        android:padding="10dp"
+        android:text="   3"
+        android:textColor="#FE734E"
+        android:textSize="25sp"
+        android:background="@drawable/noboder_field"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/field"
+        android:shadowColor="#FE734E"
+        android:singleLine="true"
+        android:text=" 1"
+        android:textColor="#FE734E"
+        android:textSize="25sp"
+
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#FE734E"
+        app:strokeColor="#FE734E"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="260dp"
+        android:padding="10dp"
+        android:background="@drawable/noboder_field"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="238dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/sofia_m"
+        android:text="Please type the verification code sent to prelookstudio@gmail.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="176dp"
+        android:fontFamily="@font/sofia_m"
+        android:text="I don’t recevie a code! "
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/sofia_m"
+        android:text="Please Resend!"
+        android:textColor="#FE734E"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <View
+        android:layout_width="410dp"
+        android:layout_height="308dp"
+        android:background="#D6D9DE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton20"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="636dp"
+        android:layoutmarginStart="24dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton17"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="565dp"
+        android:text="7"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton19"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="565dp"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toEndOf="@+id/materialButton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton18"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="564dp"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/materialButton10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton15"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="492dp"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/materialButton10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton14"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="492dp"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton16"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="492dp"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toEndOf="@+id/materialButton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton3"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="420dp"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/materialButton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton2"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="420dp"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/materialButton10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton10"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="420dp"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/Delete"
+        android:padding="10dp"
+        app:backgroundTint="#000000"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
